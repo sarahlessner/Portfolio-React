@@ -10,7 +10,7 @@ const Nav = () =>
           <span className="icon-bar" />
         </button>
         <a href="/" className="navbar-brand">
-          Sarah Lessner - Professional Portfolio
+          Sarah Lessner
         </a>
       </div>
     </div>
