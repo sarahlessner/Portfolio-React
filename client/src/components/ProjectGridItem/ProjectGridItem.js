@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import ProjectDetails from "../../pages/ProjectDetails";
 import { Modal, OverlayTrigger, Popover, Tooltip, Button } from 'react-bootstrap';
+
 class ProjectGridItem extends Component {
   state = {
     showModal: false
@@ -13,7 +14,6 @@ class ProjectGridItem extends Component {
     heroku: "",
     github: "",
     description: "",
-
   };
 
   getInitialState = () => {

@@ -7,6 +7,9 @@ import Bio from "./pages/Bio";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
+import Menu from "./components/Menu";
+import Footer from "./components/Footer";
+
 
 const App = () =>
   <Router>
@@ -20,6 +23,7 @@ const App = () =>
         <Route exact path="/contact" component={Contact} />
         <Route component={NoMatch} />
       </Switch>
+      <Footer />
     </div>
   </Router>;
 

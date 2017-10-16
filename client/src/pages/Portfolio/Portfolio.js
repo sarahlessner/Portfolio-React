@@ -10,12 +10,12 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <Container fluid>
+      <div className="mainMenu">
         <h1><Link to="/projects">Projects</Link></h1>
         <h1><Link to="/bio">About Me</Link></h1>
-        <h1><Link to="/projects">Contact</Link></h1>
+        <h1><Link to="/contact">Contact</Link></h1>
 
-      </Container>
+      </div>
     );
   }
 }

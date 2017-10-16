@@ -40,6 +40,87 @@ class Projects extends Component {
                   incorporating user accounts authenticated with Google.<br /><br /> Students can get perfect matches for mutual swaps, see who is offering what they want
                   and view all skills to swap. Users have the ability to add skills wanted/offered and view/delete those skills</p>}
               />
+              <ProjectGridItem
+                name="Student Skill Swap"
+                src="https://media.thetab.com/blogs.dir/176/files/2016/12/bart-895194-960-720.jpg"
+                heroku="https://student-skill-swap.herokuapp.com/"
+                github="https://github.com/Chore-Swap/student-swap"
+                description={<p>A bartering app targeted toward college students who want to exchange skills with each other. This is a full stack application
+                  incorporating user accounts authenticated with Google.<br /><br /> Students can get perfect matches for mutual swaps, see who is offering what they want
+                  and view all skills to swap. Users have the ability to add skills wanted/offered and view/delete those skills</p>}
+              />
+              <ProjectGridItem
+                name="Student Skill Swap"
+                src="https://media.thetab.com/blogs.dir/176/files/2016/12/bart-895194-960-720.jpg"
+                heroku="https://student-skill-swap.herokuapp.com/"
+                github="https://github.com/Chore-Swap/student-swap"
+                description={<p>A bartering app targeted toward college students who want to exchange skills with each other. This is a full stack application
+                  incorporating user accounts authenticated with Google.<br /><br /> Students can get perfect matches for mutual swaps, see who is offering what they want
+                  and view all skills to swap. Users have the ability to add skills wanted/offered and view/delete those skills</p>}
+              />
+              <ProjectGridItem
+                name="Student Skill Swap"
+                src="https://media.thetab.com/blogs.dir/176/files/2016/12/bart-895194-960-720.jpg"
+                heroku="https://student-skill-swap.herokuapp.com/"
+                github="https://github.com/Chore-Swap/student-swap"
+                description={<p>A bartering app targeted toward college students who want to exchange skills with each other. This is a full stack application
+                  incorporating user accounts authenticated with Google.<br /><br /> Students can get perfect matches for mutual swaps, see who is offering what they want
+                  and view all skills to swap. Users have the ability to add skills wanted/offered and view/delete those skills</p>}
+              />
+              <ProjectGridItem
+                name="Student Skill Swap"
+                src="https://media.thetab.com/blogs.dir/176/files/2016/12/bart-895194-960-720.jpg"
+                heroku="https://student-skill-swap.herokuapp.com/"
+                github="https://github.com/Chore-Swap/student-swap"
+                description={<p>A bartering app targeted toward college students who want to exchange skills with each other. This is a full stack application
+                  incorporating user accounts authenticated with Google.<br /><br /> Students can get perfect matches for mutual swaps, see who is offering what they want
+                  and view all skills to swap. Users have the ability to add skills wanted/offered and view/delete those skills</p>}
+              />
+              <ProjectGridItem
+                name="Student Skill Swap"
+                src="https://media.thetab.com/blogs.dir/176/files/2016/12/bart-895194-960-720.jpg"
+                heroku="https://student-skill-swap.herokuapp.com/"
+                github="https://github.com/Chore-Swap/student-swap"
+                description={<p>A bartering app targeted toward college students who want to exchange skills with each other. This is a full stack application
+                  incorporating user accounts authenticated with Google.<br /><br /> Students can get perfect matches for mutual swaps, see who is offering what they want
+                  and view all skills to swap. Users have the ability to add skills wanted/offered and view/delete those skills</p>}
+              />
+              <ProjectGridItem
+                name="Student Skill Swap"
+                src="https://media.thetab.com/blogs.dir/176/files/2016/12/bart-895194-960-720.jpg"
+                heroku="https://student-skill-swap.herokuapp.com/"
+                github="https://github.com/Chore-Swap/student-swap"
+                description={<p>A bartering app targeted toward college students who want to exchange skills with each other. This is a full stack application
+                  incorporating user accounts authenticated with Google.<br /><br /> Students can get perfect matches for mutual swaps, see who is offering what they want
+                  and view all skills to swap. Users have the ability to add skills wanted/offered and view/delete those skills</p>}
+              />
+              <ProjectGridItem
+                name="Student Skill Swap"
+                src="https://media.thetab.com/blogs.dir/176/files/2016/12/bart-895194-960-720.jpg"
+                heroku="https://student-skill-swap.herokuapp.com/"
+                github="https://github.com/Chore-Swap/student-swap"
+                description={<p>A bartering app targeted toward college students who want to exchange skills with each other. This is a full stack application
+                  incorporating user accounts authenticated with Google.<br /><br /> Students can get perfect matches for mutual swaps, see who is offering what they want
+                  and view all skills to swap. Users have the ability to add skills wanted/offered and view/delete those skills</p>}
+              />
+              <ProjectGridItem
+                name="Student Skill Swap"
+                src="https://media.thetab.com/blogs.dir/176/files/2016/12/bart-895194-960-720.jpg"
+                heroku="https://student-skill-swap.herokuapp.com/"
+                github="https://github.com/Chore-Swap/student-swap"
+                description={<p>A bartering app targeted toward college students who want to exchange skills with each other. This is a full stack application
+                  incorporating user accounts authenticated with Google.<br /><br /> Students can get perfect matches for mutual swaps, see who is offering what they want
+                  and view all skills to swap. Users have the ability to add skills wanted/offered and view/delete those skills</p>}
+              />
+              <ProjectGridItem
+                name="Student Skill Swap"
+                src="https://media.thetab.com/blogs.dir/176/files/2016/12/bart-895194-960-720.jpg"
+                heroku="https://student-skill-swap.herokuapp.com/"
+                github="https://github.com/Chore-Swap/student-swap"
+                description={<p>A bartering app targeted toward college students who want to exchange skills with each other. This is a full stack application
+                  incorporating user accounts authenticated with Google.<br /><br /> Students can get perfect matches for mutual swaps, see who is offering what they want
+                  and view all skills to swap. Users have the ability to add skills wanted/offered and view/delete those skills</p>}
+              />
               </div>
           </div>
       </section>
