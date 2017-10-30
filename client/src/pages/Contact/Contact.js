@@ -9,7 +9,6 @@ class Contact extends Component {
   state = {
     name: "",
     email: "",
-    to: "sarahlessner@gmail.com",
     message: "",
     sent: false
   };
@@ -26,7 +25,7 @@ class Contact extends Component {
     if (this.state.name && this.state.email && this.state.message) {
       return axios.post('/sendemail', {
         from: this.state.email,
-        to: this.state.to,
+        to: "sarahlessner@gmail.com",
         subject: this.state.name+" has sent you a message from your website!",
         text: this.state.message
       })
