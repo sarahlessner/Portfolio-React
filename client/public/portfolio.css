@@ -175,7 +175,7 @@ header .intro-text .skills {
 
 .mainMenu h1 a {
   font-size: 50px;
-  color: white;
+  color: #55555d;
 }
 
 section {
@@ -280,6 +280,8 @@ section.success ul {
 
 .portfolio-item img {
     padding: 10px;
+    max-height: 180px;
+    
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,

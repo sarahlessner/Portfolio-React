@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import ProjectDetails from "../../pages/ProjectDetails";
 import { Modal, OverlayTrigger, Popover, Tooltip, Button } from 'react-bootstrap';
 
 class ProjectGridItem extends Component {
@@ -47,7 +46,7 @@ class ProjectGridItem extends Component {
           <Modal.Body>
             <h4>About this Project</h4>
             <div>{this.props.description}</div>
-            <Link to={this.props.heroku} target="_blank">Heroku </Link> |
+            <Link to={this.props.heroku} target="_blank">Website </Link> |
             <Link to={this.props.github} target="_blank"> Github</Link>
 
           </Modal.Body>
