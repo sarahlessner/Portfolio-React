@@ -37,7 +37,7 @@ class ProjectGridItem extends Component {
                       <i className="fa fa-plus-square-o fa-3x"></i>
                   </div>
               </div>
-              <img src={this.props.src} className="img-responsive" alt={this.props.name} />
+              <img src={this.props.src} className="img-responsive img-centered" alt={this.props.name} />
           </div>
           <Modal show={this.state.showModal} onHide={this.close}>
           <Modal.Header closeButton>

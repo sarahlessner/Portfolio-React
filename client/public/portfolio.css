@@ -2,7 +2,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Quicksand', sans-serif;
-    background: #f6f5f9;
+    background: #ffffff;
 }
 
 p {
@@ -186,6 +186,7 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    color: #55555d;
 }
 
 section.success {
@@ -279,9 +280,11 @@ section.success ul {
 }
 
 .portfolio-item img {
-    padding: 10px;
-    max-height: 180px;
-    
+    padding: 5px;
+    width: 290px;
+    height: 190px;
+    border: 1px solid black;
+    background: #55555d;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
@@ -360,12 +363,12 @@ button.portfolio-link.btn.btn-default{
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-left: 1px solid #d1d0d4;
-    border-right: 1px solid #d1d0d4;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
 }
 
 .floating-label-form-group:last-child {
-  border-bottom: 1px solid #d1d0d4;
+  border-bottom: 1px solid #000000;
 
 }
 
@@ -402,7 +405,7 @@ button.portfolio-link.btn.btn-default{
 
 .floating-label-form-group::not(:first-child) {
     padding-left: 14px;
-    border-left: 1px solid #d1d0d4;
+    border-left: 1px solid #000000;
 
 
 }
@@ -417,7 +420,7 @@ button.portfolio-link.btn.btn-default{
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #d1d0d4;
+    border-top: 1px solid #000000;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -473,7 +476,7 @@ footer .footer-below {
 }
 
 .submitbtn {
-    background: #6ed0dc;
+    background: #c3b9fc;
     color: black;
     padding-left: 60px;
     padding-right: 60px;
@@ -482,7 +485,7 @@ footer .footer-below {
 }
 
 .submitbtn:hover {
-  background: rgba(195,185,252,0.7);
+  background: gray;
 }
 
 .scroll-top {
