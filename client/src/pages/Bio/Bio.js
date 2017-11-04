@@ -33,10 +33,10 @@ class Bio extends Component {
                           to work professionally as a developer.</p>
                         <p>When I was younger, I enjoyed making my own geocities webpages and flexing some HTML/CSS skills on my MySpace.
                           When it came time to attend college, I chose to pursue my passion for psychology instead of computer science.
-                          I ultimately did not seek a career in psychology. When I found myself in the bay area, I started
+                          I ultimately did not seek a career in psychology.</p> <p>In 2015 I reloacted to the bay area, I started
                           working at a large tech company on the support side. I love the culture but I found myself wanting to be involved
                           on the engineering side, so I made the decision to become a web developer.</p>
-                        <p>You may view my portfolio to see the work I have done as a web developer. Please do not hesitate to reach out
+                        <p>Check out my Projects page to see the websites/apps that I have created. Please do not hesitate to reach out
                           via the contact form.
                         </p>
 

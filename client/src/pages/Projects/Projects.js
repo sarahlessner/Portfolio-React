@@ -35,7 +35,7 @@ class Projects extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">
-                        <h2>Portfolio</h2>
+                        <h2>Project Portfolio</h2>
                         <hr />
                     </div>
                 </div>
@@ -92,7 +92,7 @@ class Projects extends Component {
                   src={friendfinder}
                   heroku="https://the-friend-zone.herokuapp.com/"
                   github="https://github.com/sarahlessner/friend-finder"
-                  description={<p>A compatibility-based "Friend Finder" application that takes survey results from a new user, and compares them to existing users scores to find a best match. This application was not created using a database, so it is simply a comical quiz where users match with an API of silly fake friends</p>}
+                  description={<p>A compatibility-based "Friend Finder" application that takes survey results from a new user, and compares them to existing users scores to find a best match. This application was not created using a database, so it is simply a comical quiz where users match with an API of silly fake friends.</p>}
                 />
                 <ProjectGridItem
                   name="Bamazon"
@@ -122,14 +122,14 @@ class Projects extends Component {
                   src={crystal}
                   heroku="https://sarahlessner.github.io/crystal-collector/"
                   github="https://github.com/sarahlessner/crystal-collector"
-                  description={<p>Classic game wherein users receive a word to try to guess. The number of characters in the word are revealed and letters are filled in as the user makes correct guesses. Too many incorrect guesses will "hang" the "man" This game is puppy themed so users are prompted to guess a breed of dog. When they guess correctly, a picture of a puppy is displayed.</p>}
+                  description={<p>The crystals game was built with HMTL, CSS, Javascript/JQuery and it generates a random number that the user must try to reach without going over.</p>}
                 />
                 <ProjectGridItem
                   name="Hangman"
                   src={hangman}
                   heroku="https://sarahlessner.github.io/Hangman-Game/"
                   github="https://github.com/sarahlessner/hangman-game"
-                  description={<p>The crystals game was built with HMTL, CSS, Javascript/JQuery and it generates a random number that the user must try to reach without going over.</p>}
+                  description={<p>Classic game wherein users receive a word to try to guess. The number of characters in the word are revealed and letters are filled in as the user makes correct guesses. Too many incorrect guesses will "hang" the "man" This game is puppy themed so users are prompted to guess a breed of dog. When they guess correctly, a picture of a puppy is displayed.</p>}
                 />
 
 

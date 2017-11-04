@@ -23,11 +23,6 @@ a:active,
 a.active {
     outline: 0;
     color: gray;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.navbar-inverse .navbar-brand {
-  color: rgba(151,222,231,.7);
 }
 
 h1, h2 {
@@ -47,6 +42,12 @@ h6 {
 h4 {
   color: black;
 }
+
+.navbarMenu li {
+  list-style:none;
+  display: inline;
+}
+
 
 .img-centered {
     margin: 0 auto;
@@ -151,6 +152,11 @@ header .intro-text .skills {
 .navbar-inverse .navbar-nav>li>a  {
   color: white;
 }
+
+.navbar-inverse .navbar-brand {
+  color: rgba(151,222,231,.7);
+}
+
 .navbar a:focus {
     outline: 0;
 }
@@ -171,16 +177,29 @@ header .intro-text .skills {
     background: rgba(151,222,231,.7);
 }
 
-.navbar .navbar-nav li a:hover {
-    color: #c3b9fc;
+.navbar .navbar-nav a:hover {
+    color: white;
+    background: black;
 }
 
 .navbar-default,
 .navbar-inverse {
     border: 0;
-    background: #8895b3;
+    background: #5c5f6f;
     color: black;
 }
+
+.navbar-inverse .navbar-brand:hover {
+  color: #84b9c2;
+  background: black;
+}
+
+.active {
+  background: black;
+  color: #84b9c2 !important;
+
+}
+
 
 /*.navbar-collapse.collapse {
     display: none!important;
@@ -200,6 +219,10 @@ header .intro-text .skills {
   color: #55555d;
 }
 
+.mainMenu h1 a:hover {
+  color: #836fa7;
+}
+
 .bio-img {
   margin-left: 10px;
 	object-fit: cover;
@@ -212,18 +235,17 @@ header .intro-text .skills {
 
 section {
     padding: 100px 0;
-    color: #8895b3;
+    color: #5c5f6f;
 }
 
 section h2 {
     margin-top: 50px;
     font-size: 3em;
-    color: #55555d;
+    color: #836fa7;
 }
 
 section.success {
-    color: #8895b3;
-    background: #f6f6ff;
+    color: #5c5f6f;
 }
 
 section.success a,
@@ -478,7 +500,7 @@ footer h4 {
 
 footer .footer-above {
     /*padding-top: 50px;*/
-    background-color: #8895b3;
+    background-color: #5c5f6f;
 }
 
 /*footer .footer-col {
@@ -508,7 +530,7 @@ footer .footer-below {
 }
 
 .submitbtn {
-    background: #c3b9fc;
+    background: #836fa7;
     color: black;
     padding-left: 60px;
     padding-right: 60px;
@@ -566,7 +588,7 @@ footer .footer-below {
 
 .portfolio-modal a {
   text-align: left;
-  color: #8895b3;
+  color: #5c5f6f;
   margin-bottom: 10px
 }
 

@@ -12,15 +12,18 @@ const NavMenu = (props) => (
         </div>
 
       <div className="navbarMenu">
-        <Link to="/projects" className="navbar-brand">
-          Projects
+
+        <Link to="/projects" className={window.location.pathname === "/projects" ? "navbar-brand active" : "navbar-brand"}>
+        Projects
         </Link>
-        <Link to="/bio" className="navbar-brand">
-          Bio
+        <Link to="/bio" className={window.location.pathname === "/bio" ? "navbar-brand active" : "navbar-brand"}>
+        Bio
         </Link>
-        <Link to="/contact" className="navbar-brand">
-          Contact
+        <Link to="/contact" className={window.location.pathname === "/contact" ? "navbar-brand active" : "navbar-brand"}>
+        Contact
         </Link>
+
+
       </div>
     </nav>
   </div>
