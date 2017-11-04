@@ -635,4 +635,7 @@ footer .footer-below {
 	.navbarMenu {
     float: left;
   }
+  a.navbar-brand {
+    font-size: 13px;
+  }
 }
