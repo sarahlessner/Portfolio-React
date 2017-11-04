@@ -5,7 +5,6 @@ import Projects from "./pages/Projects";
 import Bio from "./pages/Bio";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
-import Nav from "./components/Nav";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 
@@ -13,7 +12,6 @@ import Footer from "./components/Footer";
 const App = () =>
   <Router>
     <div>
-      <Nav />
       <Switch>
         <Route exact path="/" component={Portfolio} />
         <Route exact path="/projects" component={Projects} />

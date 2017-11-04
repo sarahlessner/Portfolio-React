@@ -3,14 +3,16 @@ import Menu from "../Menu";
 import { Link } from "react-router-dom";
 
 const Nav = () =>
-  <nav className="navbar navbar-inverse navbar-top">
-    <div className="container-fluid">
-      <div className="navbar-header">
-        <Link to="/" className="navbar-brand">
-          Sarah Lessner
-        </Link>
+  <div className="mainNav">
+    <nav className="navbar navbar-inverse navbar-top">
+      <div className="container-fluid">
+        <div className="navbar-header">
+          <Link to="/" className="navbar-brand">
+            Sarah Lessner - Full Stack Web Developer
+          </Link>
+        </div>
       </div>
-    </div>
-  </nav>;
+    </nav>
+  </div>;
 
 export default Nav;

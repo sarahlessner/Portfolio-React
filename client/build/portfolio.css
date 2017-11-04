@@ -16,6 +16,7 @@ p.small {
 hr {
   border-color: #d1d0d4;
 }
+
 a:hover,
 a:focus,
 a:active,
@@ -121,14 +122,35 @@ header .intro-text .skills {
 }
 
 .navbar {
+  border-radius: 0;
+
+}
+
+.navMenu {
     text-transform: uppercase;
     color: black;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    border-radius: 0;
     margin-bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
 }
 
+.navbarMenu {
+  float: right;
+}
+
+.mainNav {
+  text-transform: uppercase;
+  color: black;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+.navbar-inverse .navbar-nav>li>a  {
+  color: white;
+}
 .navbar a:focus {
     outline: 0;
 }
@@ -174,8 +196,18 @@ header .intro-text .skills {
 }
 
 .mainMenu h1 a {
-  font-size: 50px;
+  font-size: 80px;
   color: #55555d;
+}
+
+.bio-img {
+  margin-left: 10px;
+	object-fit: cover;
+	border-radius:50%;
+	width: 250px;
+	height: 250px;
+  border: 1px solid rgba(221, 221, 221, 0.25);
+
 }
 
 section {
@@ -184,7 +216,7 @@ section {
 }
 
 section h2 {
-    margin: 0;
+    margin-top: 50px;
     font-size: 3em;
     color: #55555d;
 }
@@ -597,4 +629,10 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+@media (max-width: 768px) {
+	.navbarMenu {
+    float: left;
+  }
 }
