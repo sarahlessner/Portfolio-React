@@ -335,10 +335,23 @@ section.success ul {
 
 .portfolio-item img {
     padding: 5px;
-    width: 290px;
+    width: 400px;
     height: 190px;
     border: 1px solid black;
     background: #55555d;
+}
+
+.games-link {
+  text-align: center;
+  font-size: 50px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.games-link a{
+
+  color: #836fa7;
+}
+.games-link a:hover {
+  color: #55555d;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
