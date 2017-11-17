@@ -128,7 +128,7 @@ header .intro-text .skills {
 
 }
 
-.navMenu {
+.navMenu, .mainNav {
     text-transform: uppercase;
     color: black;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -137,18 +137,21 @@ header .intro-text .skills {
     position: fixed;
     width: 100%;
     z-index: 3;
+    top: 0;
 }
 
 .navbarMenu {
   float: right;
 }
 
-.mainNav {
+/*.mainNav {
   text-transform: uppercase;
   color: black;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
-}
+  position: fixed;
+  top: 0;
+}*/
 
 .navbar-inverse .navbar-nav>li>a  {
   color: white;
