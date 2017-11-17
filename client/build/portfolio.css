@@ -229,7 +229,7 @@ header .intro-text .skills {
 }
 
 .preload-images {
-  visibility: hidden;
+  display: none;
 }
 
 .mainMenu {
