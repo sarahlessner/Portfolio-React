@@ -39,11 +39,10 @@ h6 {
     text-transform: uppercase;
     font-family: "Quicksand","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: black;
 }
 
-h4 {
-  color: black;
-}
+
 
 .navbarMenu li {
   list-style:none;
@@ -208,15 +207,20 @@ header .intro-text .skills {
 
 }
 
+.contact-background {
+  background-image: url("./images/light-blurs.png");
+  height: 100% !important;
+
+}
+
 .page-background {
   /*background-image: url("./images/whitey.png");*/
   background-image: url("./images/light-blurs.png");
   /*background-image: url("./images/space-waves.jpg");*/
-  opacity: 50%;
-
+  margin-bottom: 20px;
 }
 
-.landing-page, .page-background {
+.landing-page, .page-background, .contact-background {
   width: 100% !important;
   position: absolute;
 }
@@ -246,8 +250,16 @@ header .intro-text .skills {
 	border-radius:50%;
 	width: 250px;
 	height: 250px;
-  border: 1px solid rgba(221, 221, 221, 0.25);
+  border: 1px solid darkgray;
 
+}
+
+.bio-text {
+  font-weight: bolder;
+}
+
+.bio-skills {
+  list-style: none;
 }
 
 section {
