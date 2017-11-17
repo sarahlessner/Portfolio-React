@@ -31,12 +31,12 @@ class Bio extends Component {
                         <p>I am seeking a professional opportunity as a front-end or full-stack web developer.
                           I love the culture and unique challenges in the industry, and I am eager for the chance
                           to work professionally as a developer. </p> <p>I enjoy coding and I am passionate about learning new technology.
-                          I enjoy solving challenging problems and pick up on new technologies quickly through hard work and dedication.
+                          I enjoy solving challenging problems and pick up on new tech quickly through hard work and dedication.
                           I was most attracted to getting into coding because there would always be more ways to learn and grow.</p>
 
                         <p>Back in high school, I considered studying computer science, but when it came time to attend college, I chose to pursue my passion for psychology.
                           I ultimately did not seek a career in psychology and I am happy to have found my way back to coding</p>
-                        <p>In 2015 I reloacted to the bay area, I started
+                        <p>In 2015 I relocated to the bay area, I started
                           working at a large tech company on the support side. I love the culture but I found myself wanting to be involved
                           in the industry in a more technical and challenging way, so I made the decision to become a web developer.</p>
                         <p>Check out my Projects page to see the websites/apps that I have created. Please do not hesitate to reach out
