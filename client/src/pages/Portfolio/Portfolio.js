@@ -11,7 +11,7 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <div>
+      <div className="landing-page">
         <Nav />
         <div className="mainMenu">
           <h1><Link to="/projects">Projects</Link></h1>

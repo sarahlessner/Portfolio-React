@@ -3,6 +3,7 @@ body {
     overflow-x: hidden;
     font-family: 'Quicksand', sans-serif;
     background: #ffffff;
+
 }
 
 p {
@@ -209,6 +210,12 @@ header .intro-text .skills {
     display: block;
 }*/
 
+.landing-page {
+  background-image: url("./images/background-img.png");
+  height: 1500px;
+
+}
+
 .mainMenu {
   text-align: center;
   margin-top: 80px;
@@ -220,7 +227,7 @@ header .intro-text .skills {
 }
 
 .mainMenu h1 a:hover {
-  color: #836fa7;
+  color: oldlace;
 }
 
 .bio-img {
@@ -335,10 +342,23 @@ section.success ul {
 
 .portfolio-item img {
     padding: 5px;
-    width: 290px;
+    width: 400px;
     height: 190px;
     border: 1px solid black;
     background: #55555d;
+}
+
+.games-link {
+  text-align: center;
+  font-size: 50px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.games-link a{
+
+  color: #836fa7;
+}
+.games-link a:hover {
+  color: #55555d;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
