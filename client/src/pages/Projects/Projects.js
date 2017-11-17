@@ -16,6 +16,7 @@ import scraper from "../../images/scraper.png";
 import hangman from "../../images/hangman.png";
 import crystal from "../../images/crystal.png";
 import NavMenu from "../../components/NavMenu";
+const Preload = require('react-preload').Preload;
 
 
 

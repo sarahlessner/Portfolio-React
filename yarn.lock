@@ -1405,6 +1405,10 @@ react-overlays@^0.7.0:
     prop-types-extra "^1.0.1"
     warning "^3.0.0"
 
+react-preload@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/react-preload/-/react-preload-0.5.1.tgz#ab38ec9e004862914d6b6137d057e647410d988c"
+
 react-prop-types@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/react-prop-types/-/react-prop-types-0.4.0.tgz#f99b0bfb4006929c9af2051e7c1414a5c75b93d0"

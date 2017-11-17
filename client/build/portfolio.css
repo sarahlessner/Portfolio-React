@@ -225,6 +225,10 @@ header .intro-text .skills {
   position: absolute;
 }
 
+.preload-images {
+  visibility: hidden;
+}
+
 .mainMenu {
   text-align: center;
   margin-top: 80px;
