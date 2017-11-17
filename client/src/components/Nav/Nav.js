@@ -8,7 +8,7 @@ const Nav = () =>
       <div className="container-fluid">
         <div className="navbar-header">
           <Link to="/" className="navbar-brand">
-            Sarah Lessner - Full Stack Web Developer
+            Sarah Lessner - Full Stack Developer
           </Link>
         </div>
       </div>

@@ -37,7 +37,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div>
+      <div className="page-background">
         <NavMenu />
         <section id="contact">
             <div className="container">

@@ -2,7 +2,8 @@
 body {
     overflow-x: hidden;
     font-family: 'Quicksand', sans-serif;
-    background: #ffffff;
+    /*background: #ffffff;*/
+    height: 100%;
 
 }
 
@@ -212,8 +213,17 @@ header .intro-text .skills {
 
 .landing-page {
   background-image: url("./images/background-img.png");
-  height: 1500px;
+  height: 100% !important;
 
+}
+
+.page-background {
+  background-image: url("./images/whitey.png");
+}
+
+.landing-page, .page-background {
+  width: 100% !important;
+  position: absolute;
 }
 
 .mainMenu {
@@ -223,7 +233,7 @@ header .intro-text .skills {
 
 .mainMenu h1 a {
   font-size: 80px;
-  color: #55555d;
+  color: #272c54;
 }
 
 .mainMenu h1 a:hover {
@@ -248,7 +258,7 @@ section {
 section h2 {
     margin-top: 50px;
     font-size: 3em;
-    color: #836fa7;
+    color: #997eca;
 }
 
 section.success {
@@ -302,11 +312,21 @@ section.success ul {
     margin: 0 0 15px;
 }
 
+#portfolio a {
+  color: #55555d;
+
+}
+
+#portfolio a:hover {
+  color: #c3b9fc;
+
+}
+
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 260px;
+    /*max-width: 260px;*/
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -343,7 +363,7 @@ section.success ul {
 .portfolio-item img {
     padding: 5px;
     width: 400px;
-    height: 190px;
+    height: 250px;
     border: 1px solid black;
     background: #55555d;
 }
@@ -355,7 +375,7 @@ section.success ul {
 }
 .games-link a{
 
-  color: #836fa7;
+  color: #997eca;
 }
 .games-link a:hover {
   color: #55555d;
@@ -550,7 +570,7 @@ footer .footer-below {
 }
 
 .submitbtn {
-    background: #836fa7;
+    background: #997eca;
     color: black;
     padding-left: 60px;
     padding-right: 60px;

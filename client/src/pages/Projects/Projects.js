@@ -25,10 +25,10 @@ class Projects extends Component {
 
   render() {
     return (
-      <div>
-      <NavMenu />
+      <div className="page-background">
+        <NavMenu />
         <Container fluid>
-        <section id="portfolio">
+          <section id="portfolio">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">
@@ -107,7 +107,7 @@ class Projects extends Component {
                     </div>
                 </div>
             </div>
-        </section>
+          </section>
         </Container>
       </div>
     );

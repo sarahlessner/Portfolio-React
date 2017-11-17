@@ -17,11 +17,11 @@ class Games extends Component {
 
   render() {
     return (
-      <div>
-      <NavMenu />
-        <Container fluid>
-        <section id="portfolio">
-            <div className="container">
+      <div className="page-background">
+        <NavMenu />
+          <Container fluid>
+            <section id="portfolio">
+              <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">
                         <h2>Games & Quizzes</h2>
@@ -58,8 +58,9 @@ class Games extends Component {
                     description={<p>Classic game wherein users receive a word to try to guess. The number of characters in the word are revealed and letters are filled in as the user makes correct guesses. Too many incorrect guesses will "hang" the "man" This game is puppy themed so users are prompted to guess a breed of dog. When they guess correctly, a picture of a puppy is displayed.</p>}
                   />
                 </div>
-            </div>
-        </section>
+                <Link to="/projects">← Back to Main Projects Page</Link>
+              </div>
+            </section>
         </Container>
       </div>
     );
