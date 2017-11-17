@@ -202,15 +202,6 @@ header .intro-text .skills {
 
 }
 
-
-/*.navbar-collapse.collapse {
-    display: none!important;
-}
-
-.navbar-toggle {
-    display: block;
-}*/
-
 .landing-page {
   background-image: url("./images/background-img.png");
   height: 100% !important;
@@ -233,11 +224,16 @@ header .intro-text .skills {
 
 .mainMenu h1 a {
   font-size: 80px;
-  color: #272c54;
+  color: black;
+  
 }
 
 .mainMenu h1 a:hover {
-  color: oldlace;
+  text-decoration: none;
+  color: #997eca;
+  -webkit-text-fill-color: #997eca; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .bio-img {
