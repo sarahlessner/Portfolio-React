@@ -209,7 +209,11 @@ header .intro-text .skills {
 }
 
 .page-background {
-  background-image: url("./images/whitey.png");
+  /*background-image: url("./images/whitey.png");*/
+  background-image: url("./images/light-blurs.png");
+  /*background-image: url("./images/space-waves.jpg");*/
+  opacity: 50%;
+
 }
 
 .landing-page, .page-background {
@@ -225,7 +229,7 @@ header .intro-text .skills {
 .mainMenu h1 a {
   font-size: 80px;
   color: black;
-  
+
 }
 
 .mainMenu h1 a:hover {
@@ -254,7 +258,7 @@ section {
 section h2 {
     margin-top: 50px;
     font-size: 3em;
-    color: #997eca;
+    color: black;
 }
 
 section.success {
