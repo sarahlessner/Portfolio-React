@@ -7,16 +7,11 @@ import burger from "../../images/burger.png";
 import baze from "../../images/baze.png";
 import swap from "../../images/swap.png";
 import bart from "../../images/bart.png";
-import friendfinder from "../../images/friendfinder.png";
 import bamazon from "../../images/bamazon.png";
-import trivia from "../../images/trivia.png";
 import nyt from "../../images/nyt.png";
 import scheduler from "../../images/scheduler.png";
 import scraper from "../../images/scraper.png";
-import hangman from "../../images/hangman.png";
-import crystal from "../../images/crystal.png";
 import NavMenu from "../../components/NavMenu";
-const Preload = require('react-preload').Preload;
 
 
 
