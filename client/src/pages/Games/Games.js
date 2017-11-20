@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Col, Row, Container } from "../../components/Grid";
-import { Input, TextArea, FormBtn } from "../../components/Form";
+import { Container } from "../../components/Grid";
 import ProjectGridItem from "../../components/ProjectGridItem";
 import NavMenu from "../../components/NavMenu";
 import friendfinder from "../../images/friendfinder.png";

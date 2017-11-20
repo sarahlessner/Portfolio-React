@@ -6,7 +6,6 @@ import Games from "./pages/Games";
 import Bio from "./pages/Bio";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
-import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 
 

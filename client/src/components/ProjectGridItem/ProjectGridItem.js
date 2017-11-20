@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Modal, OverlayTrigger, Popover, Tooltip, Button } from 'react-bootstrap';
+import { Modal, Button } from 'react-bootstrap';
 
 class ProjectGridItem extends Component {
   state = {
