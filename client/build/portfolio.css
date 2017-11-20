@@ -267,7 +267,9 @@ header .intro-text .skills {
 
 .bio-skills {
   list-style: none;
+  padding-left: 0;
 }
+
 
 section {
     padding: 100px 0;
@@ -414,11 +416,8 @@ button.portfolio-link.btn.btn-default{
     z-index: 2;
 }
 
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
+
+
 
 .viewproject {
   position: absolute;
@@ -712,6 +711,14 @@ footer .footer-below {
     opacity: 0;
 }
 
+
+
+
+@media (max-width: 992px) {
+	#portfolio .portfolio-item img {
+    height: 200px;
+  }
+}
 @media (max-width: 768px) {
 	.navbarMenu {
     float: left;
@@ -719,4 +726,13 @@ footer .footer-below {
   a.navbar-brand {
     font-size: 13px;
   }
+  #portfolio .portfolio-item img {
+    height: 250px;
+  }
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
 }
