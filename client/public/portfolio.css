@@ -234,7 +234,7 @@ header .intro-text .skills {
 
 .mainMenu {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .mainMenu h1 a {
@@ -535,6 +535,11 @@ form .row:first-child .floating-label-form-group {
     border-top: 1px solid #000000;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.row .control-group {
+  background-color: #f7f5fb;
+  border-radius: 5px;
 }
 
 #emailmsg {
