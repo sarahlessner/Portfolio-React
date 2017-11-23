@@ -54,6 +54,10 @@ h6 {
     margin: 0 auto;
 }
 
+.nomatch-img {
+  max-width: 500px;
+}
+
 header {
     text-align: center;
     color: #6ed0dc;
