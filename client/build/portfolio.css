@@ -209,9 +209,8 @@ header .intro-text .skills {
 }
 
 .landing-page {
-  /*background-image: url("./images/bw-light-blurs.jpg");*/
-  background-image: url("./images/christmaslights.jpg");
-  background-size: 1500px;
+  background-image: url("./images/background-img.png");
+  /*background-image: url("./images/christmaslights.jpg");*/
   height: 100% !important;
 
 }
@@ -245,7 +244,8 @@ header .intro-text .skills {
 
 .mainMenu h1 a {
   font-size: 80px;
-  color: #6d2bfd;
+  /*color: #6d2bfd;*/
+  color: black;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 
@@ -253,8 +253,11 @@ header .intro-text .skills {
 
 .mainMenu h1 a:hover {
   text-decoration: none;
-  color: #2bed90;
-  -webkit-text-fill-color: #2bed90; /* Will override color (regardless of order) */
+  /*color: #2bed90;*/
+  color: white;
+  /*-webkit-text-fill-color: #2bed90; */
+  -webkit-text-fill-color: white; 
+
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
